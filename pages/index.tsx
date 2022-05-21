@@ -22,7 +22,8 @@ const Home: NextPage = () => {
         </div>
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '0.5rem 1rem', flexWrap: 'wrap' }}>
           <h1>Has Antony Green called the election yet?</h1>
-          <h2 style={{ fontWeight: 900 }}>No.</h2>
+          <h2 style={{ fontWeight: 900 }}>No, but Scott Morrison has conceded.</h2>
+          <a style={{ textDecoration: 'underline' }} href="https://www.abc.net.au/news/elections/federal/2022/results?filter=all&sort=az&state=all">Results.</a>
         </div>
 
       </main >
